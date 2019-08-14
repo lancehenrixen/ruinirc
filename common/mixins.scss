@@ -1,0 +1,47 @@
+@mixin dock-top($h, $b: 0) {
+  position: absolute;
+  top: $b;
+  left: $b;
+  right: $b;
+  height: $h;
+}
+
+@mixin fill-bottom($h, $b: 0) {
+  position: absolute;
+  bottom: $b;
+  left: $b;
+  right: $b;
+  top: $h;
+}
+
+@mixin fill-left($w, $b: 0) {
+  position: absolute;
+  bottom: $b;
+  left: $b;
+  top: $b;
+  right: $w + $b;
+}
+
+@mixin fill-right($w, $b: 0) {
+  position: absolute;
+  bottom: $b;
+  right: $b;
+  top: $b;
+  left: $w + $b;
+}
+
+@mixin dock-right($w, $b: 0) {
+  position: absolute;
+  top: $b;
+  bottom: $b;
+  right: $b;
+  width: $w - $b;
+}
+
+@mixin fill($b: 0) {
+  position: absolute;
+  top: $b;
+  bottom: $b;
+  left: $b;
+  right: $b;
+}

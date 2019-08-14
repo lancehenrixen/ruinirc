@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>ruin irc</title>
+  <style>
+    * { box-sizing: border-box; }
+    *:focus { outline: none; }
+    body { margin: 0; font-family: monospace; background-color: #00373b; color: silver; }
+    #loading { font-size: 30px; text-align: center; margin-top: 20px; }
+    #changelist { font-size: 10px; background-color: black; width: 400px; margin: 20px auto; padding: 8px; }
+  </style>
+  <link rel="stylesheet" href="theme.scss" />
+</head>
+<body>
+  <div id="loading">loading</div>
+  <pre id="changelist">
+
+    v0.1 ALPHA
+    
+    TODO (BETA v0.2)
+      crop
+      presize
+    
+    TODO (1.0)
+      export
+      show image dimensions
+      show max line length (in green/yellow/orange)
+      change target width if imported image is 80 or less (and switch to NN)
+      accept dropped images
+      throttle changes
+      ircclown fullblock fix
+      
+    MAYBE
+      alpha color
+      quarterblocks
+      fullblocks
+      shaded fullblocks
+      ansi colors
+      text
+      layers
+
+  </pre>
+
+  <script src="main.ls"></script>
+</body>
+</html>
