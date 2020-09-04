@@ -6,7 +6,7 @@
     "hack-font": "^3.3.0",
     "image-dither": "^1.0.1",
     "jimp": "^0.6.0",
-    "mithril": "^1.1.6",
+    "mithril": "^1.1.7",
     "nearest-color": "^0.4.4",
     "node-sass": "^4.11.0",
     "panzoom": "^7.1.2",
