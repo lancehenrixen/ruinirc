@@ -8,7 +8,7 @@
     "jimp": "^0.6.0",
     "mithril": "^1.1.6",
     "nearest-color": "^0.4.4",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "panzoom": "^7.1.2",
     "parcel-bundler": "^1.11.0",
     "parcel-plugin-livescript": "^1.1.0",
